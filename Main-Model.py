@@ -69,7 +69,7 @@ import cv2
 # models_training_first.fit(X_train_images, y_train_labels, epochs=10, batch_size=32)
 # # -	`batch_size`: là số lượng mẫu dữ liệu được sử dụng để cập nhật trọng số trong một lần huấn luyện. Ở đây, `batch_size=32` có nghĩa là mỗi lần huấn luyện, mô hình sẽ sử dụng 32 mẫu dữ liệu để cập nhật trọng số.
 # # Lưu lại mô hình
-models_training_first.save('model-nhom.keras')
+#models_training_first.save('model-nhom.keras')
 
 # Đọc model
 models = models.load_model('model-nhom.keras')
